@@ -1,0 +1,19 @@
+{
+  "name": "mock-jwt-api",
+  "version": "1.0.0",
+  "description": "A mock API that returns a token for authenticated routes",
+  "github": "https://github.com/ochsec/mock-jwt-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Ochsenreither",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.7",
+    "morgan": "^1.9.1"
+  }
+}
