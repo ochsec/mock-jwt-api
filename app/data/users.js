@@ -3,9 +3,11 @@ var Schema = mongoose.Schema;
 var User = require('../models/user');
 
 var demo = new User({
-    username: 'demo',
-    password: 'abc123',
-    customerId: 10000
+    Username: 'demo',
+    Password: 'abc123',
+    CustomerId: 10000,
+    UserId: 12345678,
+    UserType: 'student'
 });
 
 var users = [
